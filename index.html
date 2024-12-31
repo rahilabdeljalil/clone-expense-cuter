@@ -8,15 +8,17 @@
   </head>
   <body>
     <nav>
-      <p>Advertisement</p>
-      <div class="bottom-nav">
-        <img src="./images/ec-logo1.png" alt="" />
-        <h1>FINANCE</h1>
-      </div>
-    </nav>
+        <p>Advertisement</p>
+        <div class="bottom-nav">
+          <img src="./images/ec-logo1.png" alt="" />
+          <h1>FINANCE</h1>
+        </div>
+      </nav>
+      
+      
     <section class="content-section">
       <div class="left">
-        <h1 class="first-title">
+        <h1 class="first-title" style="font-size: calc(1.5vw + 0.9em);">
           Drivers Are Ditching Their Insurance Company & Doing This Instead
         </h1>
         <h3 class="title">Clock's Ticking - Important Notice To All Drivers</h3>
@@ -103,5 +105,13 @@
         2024 © Expense-Cutter.com All Rights Reserved.
       </div>
     </footer>
+    <script>
+function toggleMenu() {
+  const h1 = document.querySelector('.bottom-nav h1');
+  h1.classList.toggle('show'); // Toggle the 'show' class to display h1 smoothly
+}
+
+
+    </script>
   </body>
 </html>
